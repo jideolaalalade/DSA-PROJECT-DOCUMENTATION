@@ -1,4 +1,6 @@
 # DSA-DOCUMENTATION
+## Project documentation
+
 This is where I started my portfolio building while taking my Data Analysis class
 I am currently pursuing a course in Data Analysis at the Data Skill-Up Africa (DSA), where I have made significant strides in developing my analytical skills. Throughout the program, I have gained a solid foundation in Microsoft Excel, mastering functions such as pivot tables, VLOOKUP, and advanced data visualization techniques. These skills have enabled me to efficiently organize and analyze large datasets.
 
