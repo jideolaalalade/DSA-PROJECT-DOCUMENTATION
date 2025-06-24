@@ -20,5 +20,5 @@ Currently, I am expanding my skill set by learning Power BI, a powerful business
  
   - 
   - `---sql`
- ` select a, b, c
+ `Select a, b, c
 where a > 45`
