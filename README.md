@@ -9,3 +9,4 @@ In addition, I have learned SQL (Structured Query Language), which has further e
 Currently, I am expanding my skill set by learning Power BI, a powerful business analytics tool. I am particularly excited about the opportunities Power BI offers for creating interactive dashboards and dynamic reports. I am focused on applying these skills to present data in a way that is both visually appealing and easy to comprehend, thereby assisting organizations in making informed decisions based on data-driven insights.
 
 Overall, my progress in the DSA program has equipped me with a strong toolkit for data analysis, and I am eager to leverage these skills in practical settings.
+
