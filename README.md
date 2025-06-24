@@ -22,3 +22,5 @@ Currently, I am expanding my skill set by learning Power BI, a powerful business
   - `---sql`
  `Select a, b, c
 where a > 45`
+![WhatsApp Image 2024-10-06 at 19 17 30_633c3881](https://github.com/user-attachments/assets/e1414bc1-9dc1-451a-9bd3-444eb0321691)
+![PSX_20231026_115021](https://github.com/user-attachments/assets/58983e08-962b-477d-88c2-8953c19c9fcd)
