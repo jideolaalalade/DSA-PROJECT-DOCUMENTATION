@@ -1,26 +1,89 @@
-# DSA-DOCUMENTATION
-### Project documentation
+# Amazon Product Review Analysis –Project Document 
+## Introduction: My Learning Journey
+Embarking on this data analysis project marked a significant milestone in my journey to becoming a skilled Data Analyst. I have been building my skills in Excel, pivot tables, data visualization, and dashboard design. This project allowed me to practically apply these skills to a real-world business scenario, analyzing customer review data to drive decisions.
+## Project Overview
+The goal of this project is to help sellers on Amazon make informed decisions by analyzing product performance and customer sentiment data. Working as a Junior Analyst at RetailTech Insights, I evaluated product reviews and metadata to generate actionable insights that can drive product improvements, marketing strategy, and customer engagement.
+## Project Topic
+In this project, the central focus is Amazon Product Review Analysis, which involves exploring customer feedback, product performance, and pricing data for products listed on Amazon. The goal is to help sellers and decision-makers gain data-driven insights into what makes a product successful, where improvements are needed, and how customer sentiment aligns with product ratings and reviews.
+By analyzing thousands of products across multiple categories, this project identifies: Patterns in product ratings and review volumes, price strategies (discount vs. actual price), High-performing product categories, Customer preferences and potential market gaps
+The insights gathered help improve: Pricing and discounting strategies, Marketing campaigns, Inventory planning and Customer satisfaction and retention
+This topic is vital in today’s data-driven retail space where platforms like Amazon are heavily influenced by customer reviews and competitive pricing. Leveraging this kind of analysis enables sellers to stay ahead in the e-commerce market.
+## Case Study: Dataset Description
+• Source: Scraped from Amazon product pages
+• Records: 1,465 products
+• Columns: 16
+• Fields Include: Product name, category, price, discount %, actual vs discounted price, ratings, rating count, review count, review text/title
+Each row represents a single product, with aggregated reviews and performance data.
+## Tools Used
+Microsoft Excel:
+- Data cleaning
+- Pivot table analysis
+- Visualizations
+- Dashboard creation
+## Data Cleaning Process
+- Removed duplicates and blank rows
+- Split and transformed comma-separated values into structured columns
+- Standardized formats for prices and percentages
+- Created calculated columns for metrics like potential revenue, rating × review count, etc.
+- Binned products into price ranges using conditional logic
+### Steps Used During Analysis
+1. Loaded the cleaned dataset into Excel
+2. Created calculated fields (e.g., actual revenue, price buckets)
+3. Used pivot tables to summarize by category, rating, and discount
+4. Applied filters and slicers for dynamic analysis
+5. Built charts (bar, pie, column) for key metrics
+6. Designed a dashboard with KPIs, visuals, and category breakdowns
+8. Business Insights Questions & Answers
+1. What is the average discount percentage by product category?
+Health & PersonalCare at 52.68% followed by Computers & Accessories at 52.38%.
 
-This is where I started my portfolio building while taking my Data Analysis class
-I am currently pursuing a course in Data Analysis at the Data Skill-Up Africa (DSA), where I have made significant strides in developing my analytical skills. Throughout the program, I have gained a solid foundation in Microsoft Excel, mastering functions such as pivot tables, VLOOKUP, and advanced data visualization techniques. These skills have enabled me to efficiently organize and analyze large datasets.
+### How many products are listed under each category?
+Electronics has 454 products, Home & Kitchen has 448, and Computers & Accessories has 319, making them the top three in volume.
 
-In addition, I have learned SQL (Structured Query Language), which has further enhanced my ability to manage and query databases effectively. This knowledge allows me to extract, manipulate, and analyze data to draw meaningful insights, making me comfortable working with relational database systems.
+### What is the total number of reviews per category?
+Health and Personal Care
 
-Currently, I am expanding my skill set by learning Power BI, a powerful business analytics tool. I am particularly excited about the opportunities Power BI offers for creating interactive dashboards and dynamic reports. I am focused on applying these skills to present data in a way that is both visually appealing and easy to comprehend, thereby assisting organizations in making informed decisions based on data-driven insights. 
+### Which products have the highest average ratings?
+Redtech USB-C To Lightning, Amazon Basics Wireless Mouse, and Syncwire Ltg To USB are top-rated with a perfect 5.0 rating.
 
-- Overall, my progress in the DSA program has equipped me with a strong toolkit for data analysis, and I am eager to leverage these skills in practical settings.
-  1.  Overall, my progress
-  2.   in the DSA program has
-  3.    equipped me with a strong
-  4. toolkit for data analysis, and
-  5.  I am eager to leverage these skills in practical settings.
+### What is the average actual price vs the discounted price by category?
+Electronics have the highest average actual price at ₹10,754 and discounted at ₹6,527. Computers & Accessories average ₹2,032 vs ₹1,055 discounted.
 
-  - Sit tight and enjoy!
-  - [download here]{https://support.microsoft.com}.
- 
-  - 
-  - `---sql`
- `Select a, b, c
-where a > 45`
-![WhatsApp Image 2024-10-06 at 19 17 30_633c3881](https://github.com/user-attachments/assets/e1414bc1-9dc1-451a-9bd3-444eb0321691)
-![PSX_20231026_115021](https://github.com/user-attachments/assets/58983e08-962b-477d-88c2-8953c19c9fcd)
+### Which products have the highest number of reviews?
+Amazon Basics High-Speed HDMI tops with 426,973 reviews, followed by Boat Bassheads 100 and Redmi 9A variants each with over 313,000 reviews.
+
+### How many products have a discount of 50% or more?
+There are 583 products with a discount of 50% or greater.
+
+### What is the distribution of product ratings?
+Most products are rated between 4.0 and 4.4, indicating high customer satisfaction across the board.
+
+### What is the total potential revenue by category?
+Health and Personal Care at ₹6,959,700.
+
+### What is the number of unique products per price range bucket?
+Most products are priced below ₹2,000, especially in the ₹0–₹999 and ₹1,000–₹1,999 buckets.
+
+### How does the rating relate to the level of discount?
+There is a weak negative correlation (−0.145), indicating minimal inverse relationship between discount level and rating.
+
+### How many products have fewer than 1,000 reviews?
+293 products have fewer than 1,000 reviews, which is about 20% of the dataset.
+
+### Which categories have products with the highest discounts?
+Computers & Accessories has products with discounts up to 94%, followed by Electronics (91%) and Home & Kitchen (90%).
+
+### Identify the top 5 products in terms of rating and number of reviews combined.
+Amazon Basics High-Speed HDMI, Boat Bassheads 100, and Redmi 9A Sport and Activ variants are top products by combined score of rating and review count.
+### Final Dashboard
+A visual dashboard was built in Excel with the following:
+KPIs (total revenue potential, review counts, top-rated products)
+Interactive charts (category comparisons, discount distribution, rating histograms)
+Slicers for category filtering
+Product highlights section
+### Conclusion & Recommendations for Stakeholders
+Focus marketing efforts on high-performing categories: Electronics and Books
+Monitor and possibly relist low-rated products (<3 stars)
+Leverage discounts strategically, as they don’t always improve ratings
+Invest more in products with high review counts, they are likely to perform better
+Keep price points competitive in the ₹200–₹500 range for volume
